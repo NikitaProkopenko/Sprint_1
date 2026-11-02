@@ -30,7 +30,6 @@ def remove_list_duplicates(tickets_dict):
                 if task_name in list[z]:
                     list[z].remove(task_name)
 
-
 def tickets_by_type_combination(types, tickets):
     tickets_by_type = {}
 
